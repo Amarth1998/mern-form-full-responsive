@@ -1,29 +1,42 @@
+Project Setup
 Frontend (React)
 Installations:
-Create a new Vite project: npm create vite@latest
-Install dependencies: npm install
+Create a new Vite project:
+command-npm create vite@latest
+
+Install dependencies:
+command-npm install
+
+Install the following additional dependencies:
+command-npm i react-router-dom
+command-npm i react-toastify
+
 To Run React Project:
-Start the development server: npm run dev
-
-install following dependencies
-npm i react-router-dom,
-npm i react-toastify.
+Start the development server:
+command- npm run dev
 
 
-
-
-Backend(NODE ,MONGODB, EXPRESS)
+Backend (Node, MongoDB, Express)
 Installations:
-Initialize a new Node.js project:npm init -y
+Initialize a new Node.js project:
+command-npm init -y
 
 Create a server.js file.
-To Run Local Server:
-Start the server: node server.js
+Install the following dependencies:
+command-npm i bcrypt
+command-npm i cors
+command-npm i dotenv
+command-npm i express
+command-npm i jsonwebtoken
+command-npm i mongoose
 
-install following dependencies
-npm i bcrypt
-npm i cors
-npm i dotenv
-npm i express
-npm i jsonwebtoken
-npm i mongoose
+To Run Local Server:
+Start the server:
+command-node server.js
+
+
+Setup .env File:
+Create a .env file with the following contents:
+Make database in mongo atlas and and connect to atlas
+MONGODB_URI=mongodb+srv://<xyz>:<password>@atlascluster.qxrttr7.mongodb.net/vistaarwebx
+JWT_SECRET=...........<give salt>
