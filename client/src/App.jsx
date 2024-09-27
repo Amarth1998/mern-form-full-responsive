@@ -4,7 +4,7 @@ import Layout from './Layout';
 import UserRegistration from './UserRegistration';
 import Home from './Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { AuthProvider } from './AuthContext'; // Import your AuthProvider
+import { AuthProvider } from './AuthContext'; 
 
 const App = () => {
   return (

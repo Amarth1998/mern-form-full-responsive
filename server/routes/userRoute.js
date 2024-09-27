@@ -1,6 +1,4 @@
 import express from 'express'
-// import { isAdmin, requireSignIn } from '../middlewares/authmiddleware.js'
-
 import { userRegisterController ,userLoginController} from '../controllers/userController.js'
 const router =express.Router()
 

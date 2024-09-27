@@ -1,6 +1,6 @@
 import express from "express"
 import dotenv from "dotenv"
-import cors from 'cors'; //we use this coz we are running our firstend and backend on diff server port .
+import cors from 'cors'; // we are running our firstend and backend on diff server port .
 import userRoutes  from "./routes/userRoute.js";
 import  connectDb from './config/db.js'; // db connection 
 

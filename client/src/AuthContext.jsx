@@ -6,7 +6,7 @@ const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
   const [username, setUsername] = useState(() => localStorage.getItem("username") || '');
   const [token, setToken] = useState(() => localStorage.getItem("token") || '');
-  const navigate = useNavigate(); // Initialize useNavigate here
+  const navigate = useNavigate(); 
 
   const login = (userData) => {
     setUsername(userData.username);
